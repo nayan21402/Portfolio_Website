@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>My Portfolio</h1>
+        </div>        
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+           
+            <div class="rectangle_outer">
+                <div class="rotate_outer">
+                
+                </div>
+                <div class="rectangle_inner">
+                    
+                    <div class="rotate_mask"> 
+                        <div class="bg">
+                        </div>
+                    </div>
+                    <div class="eye_out">
+                        <img src="assets/eye_only.png" id="eyee" />
+                    </div>
+                    <div class="eye_mask" id="m">
+                        <div class="eye">
+                        
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="parallax_container">
+                <div class="parallax">  
+                    <div class="background">
+                        <img src="assets/pond4-01.png" id="pond4">
+                        <img src="assets/pond3-01.png" id="pond3">
+                        <img src="assets/pond2-01.png" id="pond2">
+                        <img src="assets/pond1-01.png" id="pond1">
+
+
+                    </div>
+                    
+                </div>
+            </div>
+           
+            
+            <img src="assets/tear-01.png" id="scrolling-image">
+
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of my recent projects:</p>
+            <ul>
+                <li>Project 1</li>
+                <li>Project 2</li>
+                <li>Project 3</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>Here are some of the services I offer:</p>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
